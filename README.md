@@ -1,4 +1,5 @@
 ![JAMstack Comments Engine screengrab](screenshot.jpg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmrhk1%2Fjamstack-comments-engine.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmrhk1%2Fjamstack-comments-engine?ref=badge_shield)
 
 
 # Comments engine example.
@@ -25,3 +26,7 @@ Built on Netlify
 4. **Add build hook** (`https://app.netlify.com/sites/{SITE_NAME}/settings/deploys#build-hooks`) which will rebuild and deploy the site whenever a new comment is submitted to the approved form
 5. **Add a notification** (`https://app.netlify.com/sites/{SITE_NAME}/settings/forms#form-notifications`) which will call our build hook (above) when a new comment is added to the approved comments form.
 6. **Add a notification** (`https://app.netlify.com/sites/{SITE_NAME}/settings/forms#form-notifications`) to call our comment handler lambda when a new comment is posted to the comments queue for approval.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmrhk1%2Fjamstack-comments-engine.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmrhk1%2Fjamstack-comments-engine?ref=badge_large)
